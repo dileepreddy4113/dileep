@@ -1,0 +1,44 @@
+Method to count Test Cases:
+
+1 Test case:  
+
+a.First we will check URL is correct or not.
+b.If URL is correct then will check collection name length and then it will the count.
+c. Hit the URL without passing any characters and check if it returns count.
+
+2 Test case
+when the localhost 27017 is down,pass the query check whether it will check the query or not. 
+
+3 Test case
+
+ if URL is not correct then will terminate/shutdown.
+
+
+4.Test case:
+   
+  when query consists of special characters or numbers it will throw an error and then it will shutdown. 
+
+5 Test case:
+   Change the localhost ID and pass the query to check it returns the value or not.
+
+
+
+
+
+Method to Insert Test Cases:
+
+1 Test Case:
+  if the document length is lessthan 1 it should return false/0.
+
+2 Test Case:
+ a. if the document length is greater than 1, it should to connect to the localhost.
+ b.  it should check the URL is whether it is correct or not.
+ c. if URL is correct then it should insert the documents and Bind the Documents.
+ d. if URL is incorrect it should terminate/shutdown.
+
+
+3 Test Case:
+  
+  if collection name is not equals to string then it throws error.
+
+
